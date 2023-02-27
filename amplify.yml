@@ -32,9 +32,9 @@ test:
       commands:
         - npx mochawesome-merge cypress/report/mochawesome-report/mochawesome*.json > cypress/report/mochawesome.json
         - pm2 kill
-#   artifacts:
-#     baseDirectory: cypress
-#     configFilePath: '**/mochawesome.json'
-#     files:
-#       - '**/*.png'
-#       - '**/*.mp4'
+   artifacts:
+     baseDirectory: '.'
+     configFilePath: '**/mochawesome.json'
+     files:
+       - '**/*.png'
+       - '**/*.mp4'
