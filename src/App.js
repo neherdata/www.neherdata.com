@@ -6,13 +6,13 @@ function App() {
    <div className="App">
 	<header className="App-header">
 		<img src="{logo}" className="App-logo" alt="logo" />
-		<br />
+		
 		<h1>
 			Neher Data Systems
 		</h1>
 		<h2>
 			106 Secretariat Ct<br />
-			Tinton Falls, New Jersey 07724-3845<br />
+			Tinton Falls, NJ 07724<br />
 			United States
 		</h2>
 
