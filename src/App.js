@@ -11,10 +11,6 @@ function App() {
           Neher Data Systems
         </h1>
         
-        // <p>
-        //   Edit <code>src/App.js</code> and save to reload.
-        // </p>
-        
         <a
           className="App-link"
           href="mailto:hello@neherdata.com?cc=tyler@neherdata.com;joe@neherdata.com&subject=Contact%20Neher%20Data%20Systems%20%5Bneherdata.com%5D"
