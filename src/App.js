@@ -17,11 +17,11 @@ function App() {
         
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="mailto:hello@neherdata.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Contact Us
         </a>
       </header>
     </div>
