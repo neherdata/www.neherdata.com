@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="src/ndslogo.png" className="App-logo" alt="logo" />
+        <img src={ndslogo} className="App-logo" alt="logo" />
 
         <h1>Neher Data Systems</h1>
         <p>
