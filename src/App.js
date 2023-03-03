@@ -12,7 +12,7 @@ function App() {
         <p>
           106 Secretariat Ct
           <br />
-          Tinton Falls, NJ 07724
+          Tinton Falls, New Jersey 07724
           <br />
           United States
         </p>
