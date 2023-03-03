@@ -25,7 +25,7 @@ function App() {
         </a>
         <br />
     </header>
-    <footer class="page-footer">
+    <footer class="App-footer">
         <div class="container">
             <div class="row">
                 <div class="col l4 offset-l2 s12">
