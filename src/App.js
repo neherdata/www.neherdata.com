@@ -93,7 +93,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://www.whatsapp.com/neherdata">
+          <a href="https://wa.me/message/V3ZSOBODWGPPE1">
             <FontAwesomeIcon
               icon={faWhatsapp}
               inverse
