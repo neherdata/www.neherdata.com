@@ -1,52 +1,167 @@
 import ndslogo from "./ndslogo.png";
 import "./App.css";
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// import { fas, faSignal, faSignal5 } from "@fortawesome/free-solid-svg-icons";
+// import { far } from "@fortawesome/free-regular-svg-icons";
+import {
+  faAppStoreIos,
+  faFacebook,
+  faFacebookMessenger,
+  faGithub,
+  faInstagram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faFax, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
-<div className="App">
-    <header className="App-header">
+    <div className="App">
+      <header className="App-header">
         <img src={ndslogo} className="App-logo" alt="logo" />
         <br />
         <h1>Neher Data Systems</h1>
         <p>
-            106 Secretariat Ct
-            <br />
-            Tinton Falls, New Jersey 07724
-            <br />
-            United States
+          106 Secretariat Ct
+          <br />
+          Tinton Falls, New Jersey 07724
+          <br />
+          United States
         </p>
-        <a
-            className="App-link"
-            href="mailto:hello@neherdata.com?cc=tyler@neherdata.com, joe@neherdata.com&subject=Contact%20Neher%20Data%20Systems%20%5Bneherdata.com%5D"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-        Contact Us
-        </a>
+
+        <div className="icon-bar-1">
+          <a href="mailto:hello@neherdata.com?cc=tyler@neherdata.com, joe@neherdata.com&subject=Contact%20Neher%20Data%20Systems%20%5Bneherdata.com%5D">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="tel:+17326143717">
+            <FontAwesomeIcon
+              icon={faPhone}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="fax:+17323387791">
+            <FontAwesomeIcon
+              icon={faFax}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+        </div>
+
+        <div className="icon-bar-2">
+          <a href="https://www.github.com/neherdata">
+            <FontAwesomeIcon
+              icon={faGithub}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="https://www.facebook.com/neherdata">
+            <FontAwesomeIcon
+              icon={faFacebook}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="https://www.whatsapp.com/neherdata">
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="https://www.instagram.com/neherdata">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="https://www.messenger.com/neherdata">
+            <FontAwesomeIcon
+              icon={faFacebookMessenger}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+          <a href="https://www.apple.com/">
+            <FontAwesomeIcon
+              icon={faAppStoreIos}
+              inverse
+              style={{
+                fontSize: "1em",
+                border: "1px solid white",
+                borderRadius: "0.25em",
+                padding: "0.25em",
+              }}
+            />
+          </a>
+        </div>
         <br />
-    </header>
-    <footer class="App-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Our Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="https://www.github.com/neherdata">GitHub</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.twitter.com/neherdata">Twitter</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/neherdata">Instagram</a></li>
-                        <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/neherdata">Facebook</a></li>
-                    </ul>
-                </div>
-            </div>
+
+        {/* <div className="icons-row">
+          <div className="icons-column">
+            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faWhatsapp} />
+            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon icon={faFacebookMessenger} />
+            <FontAwesomeIcon icon={faAppStoreIos} />
+          </div>
+        </div> */}
+      </header>
+      <footer className="App-footer">
+        <div className="footer-copyright">
+          <br />
+          <code>© 2023 Neher Data Systems</code>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2023 Neher Data Systems
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer>
-</div>
+      </footer>
+    </div>
   );
 }
 

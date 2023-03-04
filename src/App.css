@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  inline-size: auto;
 }
 
 .App-footer {
@@ -31,9 +32,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Email-link {
+  color: white;
 }
+
+/* .App.icons-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+/* .App.icons-column {
+  flex: 50%;
+  padding: 0 4px;
+} */
 
 @keyframes App-logo-spin {
   from {
