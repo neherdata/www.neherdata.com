@@ -1,3 +1,11 @@
+/*
+ Theme Name: Neher Data Systems
+ Description: Neher Data Systems Website 
+ Author: Tyler M  Neher
+ Author URL:  https://github.com/tylermneher/
+ Tags: Personal , Website
+*/
+
 .App {
   text-align: center;
 }
@@ -30,6 +38,9 @@
   align-items: center;
   justify-content: center;
   color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding-bottom: 10%;
+    
 }
 
 .Email-link {
