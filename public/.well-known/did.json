@@ -1,0 +1,38 @@
+{
+  "id": "did:web:neherdata.com",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    { "@base": "did:web:neherdata.com" }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": { "origins": ["https://neherdata.com/"] }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/d770fcbe-d7dc-4cf8-8745-7d857be6c7ac"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#2354ac74cfc34c25adb99ba1095459bfvcSigningKey-26705",
+      "controller": "did:web:neherdata.com",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "xwjJReWMmOw53cv6sdrZLqdlbFQKHEvCMTrHW3IOoDk",
+        "y": "_q_ZXyq1FSkxi6pip7A9FqMxBVLPGHJbW2-ht2dFM4g"
+      }
+    }
+  ],
+  "authentication": ["#2354ac74cfc34c25adb99ba1095459bfvcSigningKey-26705"],
+  "assertionMethod": ["#2354ac74cfc34c25adb99ba1095459bfvcSigningKey-26705"]
+}
