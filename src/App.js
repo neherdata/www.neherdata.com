@@ -129,7 +129,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://www.apple.com/">
+          <a href="https://apps.apple.com/us/developer/neher-co-data-systems-llc/id1619722081">
             <FontAwesomeIcon
               icon={faAppStoreIos}
               inverse
@@ -143,22 +143,16 @@ function App() {
           </a>
         </div>
         <br />
-
-        {/* <div className="icons-row">
-          <div className="icons-column">
-            <FontAwesomeIcon icon={faGithub} />
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faWhatsapp} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faFacebookMessenger} />
-            <FontAwesomeIcon icon={faAppStoreIos} />
-          </div>
-        </div> */}
       </header>
       <footer className="App-footer">
         <div className="footer-copyright">
           <br />
           <code>© 2023 Neher Data Systems</code>
+        </div>
+        <div className="footer-links">
+          <br />
+          <a href="https://tos.neherdata.com">Terms of Service</a> |{" "}
+          <a href="https://privacy.neherdata.com">Privacy Policy</a>
         </div>
       </footer>
     </div>
