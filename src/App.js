@@ -117,7 +117,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://www.messenger.com/neherdata">
+          <a href="https://m.me/neherdata">
             <FontAwesomeIcon
               icon={faFacebookMessenger}
               inverse
