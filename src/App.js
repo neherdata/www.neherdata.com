@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={ndslogo} className="App-logo" alt="logo" />
-        <br />
         <h1>Neher Data Systems</h1>
         <p>
           106 Secretariat Ct
