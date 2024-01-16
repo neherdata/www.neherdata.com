@@ -146,7 +146,7 @@ function App() {
       <footer className="App-footer">
         <div className="footer-copyright">
           <br />
-          <code>© 2023 Neher Data Systems</code>
+          <code>© 2024 Neher Data Systems</code>
         </div>
         <div className="footer-links">
           <br />
