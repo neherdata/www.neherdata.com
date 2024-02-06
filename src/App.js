@@ -1,16 +1,6 @@
 import ndslogo from "./ndslogo.png";
 import "./App.css";
-// import { library } from "@fortawesome/fontawesome-svg-core";
-// import { fas, faSignal, faSignal5 } from "@fortawesome/free-solid-svg-icons";
-// import { far } from "@fortawesome/free-regular-svg-icons";
-import {
-  faAppStoreIos,
-  faFacebook,
-  faFacebookMessenger,
-  faGithub,
-  faInstagram,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import { faAppStoreIos, faFacebook, faFacebookMessenger, faGithub, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFax, faPhone } from "@fortawesome/free-solid-svg-icons";
 
@@ -144,14 +134,16 @@ function App() {
         <br />
       </header>
       <footer className="App-footer">
-        <div className="footer-copyright">
-          <br />
-          <code>© 2024 Neher Data Systems</code>
-        </div>
         <div className="footer-links">
           <br />
-          <a href="https://tos.neherdata.com">Terms of Service</a> |{" "}
-          <a href="https://privacy.neherdata.com">Privacy Policy</a>
+          <a href="https://tos.neherdata.com">Terms of Service</a> | <a href="https://privacy.neherdata.com">Privacy Policy</a>
+          <br />
+          <a href="https://support.neherdata.com">Support</a> | <a href="mailto:hello@neherdata.com">Contact Us</a>
+        </div>
+
+        <div className="footer-copyright">
+          <br />
+          <code>© 2024 Neher & Co Data Systems LLC d/b/a Neher Data Systems</code>
         </div>
       </footer>
     </div>
