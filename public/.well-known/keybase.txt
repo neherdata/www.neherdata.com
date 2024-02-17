@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tylermneher
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://neherdata.com
+  * I am tylermneher (https://keybase.io/tylermneher) on keybase.
+  * I have a public key ASBirzd2vPUQN2WLYkIdN-JHpmEB8dPJmSYwR3rj4H2VRQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc9188c3b0e829c493081dadab13a812b7119c351f908a405d63e44f5dbdf25f0a",
+      "host": "keybase.io",
+      "kid": "012062af3776bcf51037658b62421d37e247a66101f1d3c9992630477ae3e07d95450a",
+      "uid": "4e237e9a2d34ca008fe32c9ba3c06b19",
+      "username": "tylermneher"
+    },
+    "merkle_root": {
+      "ctime": 1708202309,
+      "hash": "c51f420a03778d0bf76dff3038aa11f3745c58e2afa91a99209e31a54b0e59ab31628c77c80022e5390eefea734957088ad4958d997be8e1b914a5e20ac36873",
+      "hash_meta": "e7707c7e172675bf97870384c3ab48564efc8cc9c072fc2d69cc02ff88573264",
+      "seqno": 25468337
+    },
+    "service": {
+      "entropy": "5SRq3uAytvkBwcVqkqKUpF2q",
+      "hostname": "neherdata.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.5"
+  },
+  "ctime": 1708202332,
+  "expire_in": 504576000,
+  "prev": "3fe37b6cd4b4a2d094c688e16bb21a6595fddcfe6d08070a9748117cbfc0f96a",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYq83drz1EDdli2JCHTfiR6ZhAfHTyZkmMEd64+B9lUUKp3BheWxvYWTESpcCDsQgP+N7bNS0otCUxojha7IaZZX93P5tCAcKl0gRfL/A+WrEIAM41Nt/UoWQ7fRBYnWudMHMxdZFpvZEznrSQAaPIq85AgHCo3NpZ8RARHLPeYuSdlGYB3AgRtZPgON7/OgzfOlkK30nH2u7So+sPdx3NVQ7PTCDwUVQlSvaA5GRJQgyIP2LsTVYF81fBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHSEiIPikZi59StxQyb3n0KquNnA7Nkwuph2MAiw4nfao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tylermneher
+
+==================================================================
