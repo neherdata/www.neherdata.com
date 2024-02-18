@@ -132,6 +132,11 @@ function App() {
           </a>
         </div>
         <br />
+        <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="64ae1778dae8595f37487787" data-style-height="52px" data-style-width="100%">
+          <a href="https://www.trustpilot.com/review/neherdata.com" target="_blank" rel="noopener">
+            Trustpilot
+          </a>
+        </div>
       </header>
       <footer className="App-footer">
         <div className="footer-links">
