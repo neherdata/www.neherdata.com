@@ -82,7 +82,7 @@ function App() {
               }}
             />
           </a>
-          <a data-cy="whatsapp-link" href="https://wa.me/message/V3ZSOBODWGPPE1">
+          <a data-cy="whatsapp-link" href="https://wa.me/17326143717">
             <FontAwesomeIcon
               icon={faWhatsapp}
               inverse

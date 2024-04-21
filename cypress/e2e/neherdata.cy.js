@@ -22,6 +22,16 @@ describe("neherdata.com e2e", () => {
         cy.should("have.attr", "href", "https://support.neherdata.com");
         cy.should("have.text", "Support");
       });
+      it("ndscontactus-footer-link", () => {
+        cy.get('[data-cy="ndscontactus-footer-link"]');
+        cy.should("have.attr", "href", "mailto:hello@neherdata.com");
+        cy.should("have.text", "Contact Us");
+      });
+      it("test all links", () => {
+        cy.get("a:not([href*='mailto:'],[href*='tel:'],[href*='fax:'])").each((link) => {
+          cy.request(link.prop("href"));
+        });
+      });
     });
 
     it("charset utf-8 check", () => {
