@@ -19,7 +19,7 @@ function App() {
         </p>
 
         <div className="icon-bar-1">
-          <a href="mailto:hello@neherdata.com?cc=tyler@neherdata.com, joe@neherdata.com&subject=Contact%20Neher%20Data%20Systems%20%5Bneherdata.com%5D">
+          <a data-cy="email-link" href="mailto:hello@neherdata.com?cc=tyler@neherdata.com, joe@neherdata.com&subject=Contact%20Neher%20Data%20Systems%20%5Bneherdata.com%5D">
             <FontAwesomeIcon
               icon={faEnvelope}
               inverse
@@ -31,7 +31,7 @@ function App() {
               }}
             />
           </a>
-          <a href="tel:+17326143717">
+          <a data-cy="tel-link" href="tel:+17326143717">
             <FontAwesomeIcon
               icon={faPhone}
               inverse
@@ -43,7 +43,7 @@ function App() {
               }}
             />
           </a>
-          <a href="fax:+17323387791">
+          <a data-cy="fax-link" href="fax:+17323387791">
             <FontAwesomeIcon
               icon={faFax}
               inverse
@@ -58,7 +58,7 @@ function App() {
         </div>
 
         <div className="icon-bar-2">
-          <a href="https://www.github.com/neherdata">
+          <a data-cy="github-link" href="https://www.github.com/neherdata">
             <FontAwesomeIcon
               icon={faGithub}
               inverse
@@ -70,7 +70,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://www.facebook.com/neherdata">
+          <a data-cy="facebook-link" href="https://www.facebook.com/neherdata">
             <FontAwesomeIcon
               icon={faFacebook}
               inverse
@@ -82,7 +82,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://wa.me/message/V3ZSOBODWGPPE1">
+          <a data-cy="whatsapp-link" href="https://wa.me/message/V3ZSOBODWGPPE1">
             <FontAwesomeIcon
               icon={faWhatsapp}
               inverse
@@ -94,7 +94,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://www.instagram.com/neherdata">
+          <a data-cy="instagram-link" href="https://www.instagram.com/neherdata">
             <FontAwesomeIcon
               icon={faInstagram}
               inverse
@@ -106,7 +106,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://m.me/neherdata">
+          <a data-cy="facebookmessenger-link" href="https://m.me/neherdata">
             <FontAwesomeIcon
               icon={faFacebookMessenger}
               inverse
@@ -118,7 +118,7 @@ function App() {
               }}
             />
           </a>
-          <a href="https://apps.apple.com/us/developer/neher-co-data-systems-llc/id1619722081">
+          <a data-cy="appleappstore-link" href="https://apps.apple.com/us/developer/neher-co-data-systems-llc/id1619722081">
             <FontAwesomeIcon
               icon={faAppStoreIos}
               inverse
@@ -136,9 +136,21 @@ function App() {
       <footer className="App-footer">
         <div className="footer-links">
           <br />
-          <a href="https://tos.neherdata.com">Terms of Service</a> | <a href="https://privacy.neherdata.com">Privacy Policy</a>
+          <a data-cy="ndstos-footer-link" href="https://tos.neherdata.com">
+            Terms of Service
+          </a>{" "}
+          |{" "}
+          <a data-cy="ndsprivacy-footer-link" href="https://privacy.neherdata.com">
+            Privacy Policy
+          </a>
           <br />
-          <a href="https://support.neherdata.com">Support</a> | <a href="mailto:hello@neherdata.com">Contact Us</a>
+          <a data-cy="ndssupport-footer-link" href="https://support.neherdata.com">
+            Support
+          </a>{" "}
+          |{" "}
+          <a data-cy="ndscontactus-footer-link" href="mailto:hello@neherdata.com">
+            Contact Us
+          </a>
         </div>
 
         <div className="footer-copyright">
