@@ -1,0 +1,46 @@
+title: www.neherdata.com
+message: >-
+  Neher & Co Data Systems LLC d/b/a Neher Data Systems Homepage and Contacts Page
+type: website
+authors:
+  - given-names: Tyler M.
+    family-names: Neher
+    email: tyler@neherdata.com
+    orcid: 'https://orcid.org/0000-0003-1288-730X'
+    affiliation: Neher Data Systems
+  - name: Neher & Co Data Systems LLC
+    address: 106 Secretariat Ct
+    city: Tinton Falls
+    post-code: 07724-3845
+    region: New Jersey
+    email: hello@neherdata.com
+    tel: +1-732-614-3717
+    country: US
+    fax: +1-732-338-7791
+    date-start: '2024-01-14'
+    alias: Neher Data Systems
+    website: 'https://www.neherdata.com'
+identifiers:
+  - type: url
+    value: 'https://www.neherdata.com'
+    description: Homepage
+repository-code: 'https://github.com/tylermneher/www.neherdata.com'
+url: 'https://www.neherdata.com'
+abstract: >-
+  Neher & Co Data Systems LLC d/b/a Neher Data Systems Homepage and Contacts Page
+keywords:
+  - neherdata
+  - nds
+  - homepage
+  - contact
+  - links
+  - github
+  - github-pages
+license: GPL-3.0-or-later
+preferred-citation:
+  authors:
+    - family-names: Neher
+      given-names: Tyler M.
+  title: Neher & Co Data Systems LLC d/b/a Neher Data Systems Homepage and Contacts Page
+  type: website
+  year: 2024
