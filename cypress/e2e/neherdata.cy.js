@@ -27,13 +27,21 @@ describe("neherdata.com e2e", () => {
         cy.should("have.attr", "href", "mailto:hello@neherdata.com");
         cy.should("have.text", "Contact Us");
       });
-      
+      it("tel-link", () => {
+        cy.get('[data-cy="tel-link"]');
+        cy.should("have.attr", "href", "tel:+17326143717");
+      });
+      it("fax-link", () => {
+        cy.get('[data-cy="fax-link"]');
+        cy.should("have.attr", "href", "fax:+17323387791");
+      });
+
       // it("test all links", () => {
-        // cy.get("a:not([href*='mailto:'],[href*='tel:'],[href*='fax:'])").each((link) => {
-          // cy.request(link.prop("href"));
-        // });
+      //   cy.get("a:not([href*='mailto:'],[href*='tel:'],[href*='fax:'])").each((link) => {
+      //     cy.request(link.prop("href"));
+      //   });
       // });
-    // });
+    });
 
     it("charset utf-8 check", () => {
       cy.document().should("have.property", "charset").and("eq", "UTF-8");
