@@ -29,6 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "cy:open": "cypress open",
+    "e2e:chromium": "cypress run --browser chromium",
+    "e2e:edge": "cypress run --browser edge",
+    "e2e:firefox": "cypress run --browser firefox",
     "eject": "react-scripts eject"
   },
   "homepage": "https://neherdata.com",
