@@ -1,52 +1,52 @@
 {
-  "name": "Neher Data Systems Homepage",
-  "short_name": "Neher Data Systems",
-  "icons": [
-    {
-      "src": "https://www.neherdata.com/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "https://www.github.com/neherdata.png?size=192",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "https://www.github.com/neherdata.png?size=512",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "logo1024.png",
-      "type": "image/png",
-      "sizes": "1024x1024"
-    },
-    {
-      "src": "https://www.github.com/neherdata.png?size=120",
-      "type": "image/png",
-      "sizes": "120x120"
-    },
-    {
-      "src": "https://www.github.com/neherdata.png?size=114",
-      "type": "image/png",
-      "sizes": "114x114"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "prefer_related_applications": false,
-  "related_applications": [
-    {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.neherdata.ghosthunter",
-      "id": "com.neherdata.ghosthunter"
-    },
-    {
-      "platform": "itunes",
-      "url": "https://apps.apple.com/app/nds-ghost-hunter/id1671457267"
-    }
-  ]
+    "name": "Neher Data Systems Homepage",
+    "short_name": "Neher Data Systems",
+    "icons": [
+        {
+            "src": "https://www.neherdata.com/favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "https://www.github.com/neherdata.png?size=192",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://www.github.com/neherdata.png?size=512",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "logo1024.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        },
+        {
+            "src": "https://www.github.com/neherdata.png?size=120",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "https://www.github.com/neherdata.png?size=114",
+            "type": "image/png",
+            "sizes": "114x114"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.neherdata.ghosthunter",
+            "id": "com.neherdata.ghosthunter"
+        },
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/app/nds-ghost-hunter/id1671457267"
+        }
+    ]
 }
