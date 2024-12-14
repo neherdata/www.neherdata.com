@@ -33,6 +33,7 @@
         "e2e:chromium": "cypress run --browser chromium",
         "e2e:edge": "cypress run --browser edge",
         "e2e:firefox": "cypress run --browser firefox",
+        "e2e:firefox-dev": "cypress run --browser firefox:dev",
         "eject": "react-scripts eject"
     },
     "homepage": "https://www.neherdata.com",
