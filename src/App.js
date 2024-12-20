@@ -1,6 +1,6 @@
 import ndslogo from "./ndslogo.png";
 import "./App.css";
-import { faAppStoreIos, faFacebook, faFacebookMessenger, faGithub, faInstagram, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faAppStoreIos, faFacebook, faFacebookMessenger, faGithub, faInstagram, faLinkedin, faMicrosoft, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFax, faPhone } from "@fortawesome/free-solid-svg-icons";
 
@@ -167,6 +167,21 @@ function App() {
                     >
                         <FontAwesomeIcon
                             icon={faAppStoreIos}
+                            inverse
+                            style={{
+                                fontSize: "1em",
+                                border: "1px solid white",
+                                borderRadius: "0.25em",
+                                padding: "0.25em",
+                            }}
+                        />
+                    </a>
+                    <a
+                        data-cy="microsoftpartnerappsource-link"
+                        href="https://appsource.microsoft.com/en-us/marketplace/partner-dir/d770fcbe-d7dc-4cf8-8745-7d857be6c7ac/"
+                    >
+                        <FontAwesomeIcon
+                            icon={faMicrosoft}
                             inverse
                             style={{
                                 fontSize: "1em",
