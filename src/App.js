@@ -228,7 +228,7 @@ function App() {
 
                 <div className="footer-copyright">
                     <br />
-                    <code>© 2024 Neher & Co Data Systems LLC d/b/a Neher Data Systems</code>
+                    <code>© 2025 Neher & Co Data Systems LLC d/b/a Neher Data Systems</code>
                 </div>
             </footer>
         </div>
